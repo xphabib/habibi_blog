@@ -1,9 +1,0 @@
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: habibi_blog_db
-  pool: 5
-  username: habib
-  password: password
-  host: localhost
-  port: 5432
