@@ -7,6 +7,6 @@ Rails.application.routes.draw do
     sessions: 'users/sessions'
   }
   get 'home/index'
-  get 'home/dashboard', to: 'home#dashboard', as: :dashboard
+  get '/dashboard', to: 'home#dashboard', as: :dashboard
   root to: "home#index"
 end
